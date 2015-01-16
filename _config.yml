@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title:            Site Title
+title:            jiekebo.info
 locale:           en_US
 url:              
 
@@ -26,7 +26,7 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
+  name: Jacob Salomonsen
   avatar: bio-photo.jpg
   bio: "Describe your self."
   email: 
@@ -40,7 +40,7 @@ owner:
     ad-client: 
     ad-slot: 
   bing-verify: 
-  github: #username
+  github: jiekebo
   stackoverflow: #http://stackoverflow.com/users/123456/username
   linkedin: #username
   instagram: #username
@@ -54,6 +54,10 @@ owner:
   soundcloud: #username
   weibo: #username
   flickr: #username
+
+collections:
+  projects:
+    output: true
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
