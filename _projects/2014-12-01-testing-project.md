@@ -3,7 +3,8 @@ layout: project
 title: "Blabla"
 modified:
 excerpt: "A post to test author overrides using a data file."
-tags: []
+date: 2014-12-01
+tags: [projects]
 image:
   feature: sample-image-4.jpg
   credit: WeGraphics

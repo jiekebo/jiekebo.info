@@ -27,9 +27,9 @@ kramdown:
 # Site owner
 owner:
   name: Jacob Salomonsen
-  avatar: bio-photo.jpg
-  bio: "Describe your self."
-  email: 
+  avatar: https://s.gravatar.com/avatar/d040926f01de509a00065e87b0019daa?s=200
+  bio: "Software developer with a twist"
+  email: jiekebo@gmail.com
   disqus-shortname: 
   twitter: #username
   facebook: #username
@@ -42,7 +42,7 @@ owner:
   bing-verify: 
   github: jiekebo
   stackoverflow: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
+  linkedin: jiekebo
   instagram: #username
   lastfm: #username
   tumblr: #username
