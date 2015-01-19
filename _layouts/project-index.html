@@ -38,7 +38,7 @@
       {% assign prev_i = forloop.index0 | minus: 1 %}
       {% capture year %}{{ project.date | date: '%Y' }}{% endcapture %}
       {% capture nyear %}{{ site.projects[prev_i].date | date: '%Y' }}{% endcapture %}
-      {% if year != nyear or prev_i < 0 %}
+      {% if year != nyear or prev_i <= 0 %}
         <h3>{{ project.date | date: '%Y' }}</h3>
       {% endif %}
       <article>
