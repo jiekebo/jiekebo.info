@@ -29,10 +29,10 @@
   {% endif %}
   </div><!-- /.image-wrap -->
 {% endif %}
-{% if page.image.boids %}
+{% if page.viz.boids %}
   <div class="image-wrap" id="wrapper">
-  <canvas id="playground"></canvas>
-  </div><!-- /.image-wrap -->
+    <canvas id="playground"></canvas>
+  </div>
 {% endif %}
 
 <div id="main" role="main"> 
@@ -61,12 +61,6 @@
 </div><!-- /.footer-wrap -->
 
 {% include _scripts.html %}
-<script type="text/javascript">
-  var canvas = document.getElementById("playground");
-  var parent = document.getElementById("wrapper");
-  canvas.width = parent.offsetWidth;
-  canvas.height = canvas.width * 0.25;
-</script>
-<script type="text/javascript" src='boids.js'></script>
+
 </body>
 </html>

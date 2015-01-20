@@ -21,3 +21,12 @@
 {% if page.comments %}
   {% include _disqus_comments.html %}
 {% endif %}
+{% if page.viz.boids %}
+<script type="text/javascript">
+  var canvas = document.getElementById("playground");
+  var parent = document.getElementById("wrapper");
+  canvas.width = parent.offsetWidth;
+  canvas.height = canvas.width * 0.265;
+</script>
+<script type="text/javascript" src='/assets/js/boids.js'></script>
+{% endif %}
