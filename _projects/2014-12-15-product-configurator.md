@@ -9,6 +9,12 @@ image:
   feature: configurator.png
 ---
 
-Blabla
+The product configurator is used as aid in visualization and sales of configurable products.
+
+Since configurable product consists of multiple parts, that can be combined in various ways, it is the software’s task to help in determining the possible combinations. This gives the user an accurate understanding of the product, and will reed out the most popular configurations by user demand. This will not only help sales but also supply chain.
+
+The main concept is that it should be easy for the owners of a configurable product to create a product configurator, tailored for their specific product. The end result is an embeddable configurator they can use directly on their site, to make it available to their customers. The customers will see a 3D model of the product where they can pick and choose the parts they want, according to rules defined by the product owners.
+
+The software itself is written in Java for backend, and has a frontend written in Javascript. The configuration logic is based on a graph algorithm. The algorithm uses forward kinematics and euler rotations for spatial alignment of the 3D representation of the chosen parts. Technologies include: MongoDB for 3D model storage. Hibernate for object relational mapping in a MySQL database. Backbone for frontend Javascript structure. REST for communication between frontend and backend. WebGL for displaying 3D models in frontend.
 
 <div markdown="0"><a href="http://jiekebo.info/conf" class="btn">Go To Project Site ></a></div>
