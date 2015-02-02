@@ -35,10 +35,10 @@
   <div id="index">
     <h1>{{ page.title }}</h1>
     {% for project in site.projects reversed %}
-      {% assign prev_i = forloop.index0 | minus: 1 %}
+      {% assign prev_i = forloop.rindex0 | plus: 1 %}
       {% capture year %}{{ project.date | date: '%Y' }}{% endcapture %}
-      {% capture nyear %}{{ site.projects[prev_i].date | date: '%Y' }}{% endcapture %}
-      {% if year != nyear or prev_i <= 0 %}
+      {% capture pyear %}{{ site.projects[prev_i].date | date: '%Y' }}{% endcapture %}
+      {% if year != pyear %}
         <h3>{{ project.date | date: '%Y' }}</h3>
       {% endif %}
       <article>

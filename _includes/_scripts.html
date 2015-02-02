@@ -27,6 +27,10 @@
   var parent = document.getElementById("wrapper");
   canvas.width = parent.offsetWidth;
   canvas.height = canvas.width * 0.265;
+  window.onresize = function() {
+    canvas.width = parent.offsetWidth;
+    canvas.height = canvas.width * 0.256
+  }
 </script>
 <script type="text/javascript" src='/assets/js/boids.js'></script>
 {% endif %}
