@@ -25,11 +25,17 @@
   {% if page.image.credit %}
     <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
   {% endif %}
+  {% if page.image.caption %}
+    <span class="image-credit">{{ page.image.caption }}</span>
+  {% endif %}
   </div><!-- /.image-wrap -->
 {% endif %}
 {% if page.viz.boids %}
   <div class="image-wrap" id="wrapper">
     <canvas id="playground"></canvas>
+    {% if page.viz.caption %}
+    <span class="image-credit">{{ page.viz.caption }}</span>
+    {% endif %}
   </div>
 {% endif %}
 
