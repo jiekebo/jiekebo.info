@@ -10,6 +10,9 @@ image:
   caption: Experiments and results from the project.
 ---
 
+<div markdown="0"><a href="https://github.com/jiekebo/Lattice-Boltzmann" class="btn">Go to GitHub project ></a>
+<a href="{{ site.url }}/assets/LatticeBoltzmann.pdf" class="btn">Download Project PDF ></a></div>
+
 When deciding on what to work on for topics in my final project, I had only a sense of what I wanted to work with. I had a clear idea that I wanted to learn parallel processing, specifically using CUDA. I got into contact with a faculty professor which had the expertise to guide me in the right way on my path of learning.
 
 My first meeting with him was casual, we talked about a few projects that he had been working on. He warned me that it would be quite a lot to learn during the time I had been allotted to make my project. When I got him convinced that I was determined to take on the task, he pointed me to a piece of paper on his table, having some indistinct code printed on it. When I grabbed it, he started explaining that this was a Matlab script for simulating fluid dynamics and that he would like me to focus on making it parallel using CUDA. Yay! I thought to myself, this is right down my alley.
